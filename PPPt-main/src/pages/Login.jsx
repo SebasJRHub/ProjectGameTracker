@@ -36,7 +36,7 @@ export default function Login() {
         localStorage.setItem("token", data.token);
         console.log("Token guardado en localStorage:", data.token);
       } else {
-        console.warn("El backend no envió token");
+        console.warn("No se envió token");
       }
 
       alert("Inicio de sesión exitoso ");
