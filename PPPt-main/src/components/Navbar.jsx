@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <img src={logo} alt="GamerTrack Logo" className="logo-img" />
-        <h1>GamerTrack</h1>
+        <h1>GamerZone</h1>
       </div>
       <ul className="navbar-links">
         <li><Link to="/">Inicio</Link></li>
