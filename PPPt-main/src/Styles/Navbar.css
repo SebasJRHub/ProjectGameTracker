@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1a0000, #300000, #000);
+  color: #fff;
+  padding: 10px 40px;
+  height: 80px;
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.2);
+  border-bottom: 2px solid #400000;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px red);
+}
+
+.navbar-logo h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 0 0 10px red;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.navbar-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background: red;
+  transition: width 0.3s ease;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+.navbar-links a:hover {
+  color: red;
+  text-shadow: 0 0 10px red;
+}

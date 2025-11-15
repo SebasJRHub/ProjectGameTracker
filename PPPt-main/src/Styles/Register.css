@@ -1,0 +1,67 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: radial-gradient(circle at center, #0a0a0f 0%, #000000 100%);
+}
+
+.register-box {
+  background: rgba(15, 15, 25, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff0000;
+  width: 350px;
+  text-align: center;
+}
+
+.register-box h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000;
+}
+
+.register-box input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: #1a1a1f;
+  color: white;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ff0000;
+  background: transparent;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-shadow: 0 0 5px #ff0000;
+}
+
+.register-box button:hover {
+  background: #ff0000;
+  box-shadow: 0 0 15px #ff0000;
+}
+
+.login-link {
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.link-text {
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-text:hover {
+  text-shadow: 0 0 5px #ff0000, 0 0 15px #ff0000;
+}
