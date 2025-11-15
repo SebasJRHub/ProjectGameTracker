@@ -149,7 +149,7 @@ export default function BibliotecaJuegos() {
           });
         }}
       >
-         Agregar Juego
+         Crear Juego
       </button>
 
       <div className="game-grid">

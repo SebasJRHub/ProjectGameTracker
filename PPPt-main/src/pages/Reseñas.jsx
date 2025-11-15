@@ -131,7 +131,7 @@ export default function BibliotecaResenas() {
           });
         }}
       >
-        Agregar Reseña
+        Crear Reseña
       </button>
 
       <div className="resenas-grid">
